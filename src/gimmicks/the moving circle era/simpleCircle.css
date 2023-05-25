@@ -1,0 +1,12 @@
+@keyframes translation {
+    0%   {transform: translateX(0px)}
+    50%  {transform: translateX(450px)}
+    100% {transform: translateX(0px)}
+  }
+  
+  /* The element to apply the animation to */
+.move {
+    animation-name: translation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
